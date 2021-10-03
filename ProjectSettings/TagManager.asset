@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Back Button
+  - Ground
+  - JoyStick
+  - JoyButton
   layers:
   - Default
   - TransparentFX
