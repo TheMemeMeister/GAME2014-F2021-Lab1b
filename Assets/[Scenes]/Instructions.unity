@@ -534,15 +534,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 3182789744548690091, guid: ee9a2ce8c470dab41b39a03fe4b31bd9, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -250
+      objectReference: {fileID: 0}
+    - target: {fileID: 5537166681650006762, guid: ee9a2ce8c470dab41b39a03fe4b31bd9, type: 3}
+      propertyPath: m_Text
+      value: Close
+      objectReference: {fileID: 0}
     - target: {fileID: 5761065216077526898, guid: ee9a2ce8c470dab41b39a03fe4b31bd9, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -280
+      objectReference: {fileID: 0}
+    - target: {fileID: 6708762766251967140, guid: ee9a2ce8c470dab41b39a03fe4b31bd9, type: 3}
+      propertyPath: m_Text
+      value: 'Back
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 7578432539076365260, guid: ee9a2ce8c470dab41b39a03fe4b31bd9, type: 3}
       propertyPath: m_Text
       value: 'I''m Ready
 
 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092611881690855567, guid: ee9a2ce8c470dab41b39a03fe4b31bd9, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 250
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee9a2ce8c470dab41b39a03fe4b31bd9, type: 3}
