@@ -1003,54 +1003,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_sprites-removebg-preview_35
-      rect:
-        serializedVersion: 2
-        x: 195
-        y: 128
-        width: 8
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 66f02b1e9a87a8b90800000000000000
-      internalID: -7238840780013301914
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_sprites-removebg-preview_36
-      rect:
-        serializedVersion: 2
-        x: 205
-        y: 137
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 11da931fbd4121240800000000000000
-      internalID: 4760890690961517841
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: slime_sprites-removebg-preview_37
       rect:
         serializedVersion: 2
-        x: 206
+        x: 195
         y: 127
-        width: 23
+        width: 49
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1061,27 +1019,6 @@ TextureImporter:
       bones: []
       spriteID: bab9245ab2a9dc090800000000000000
       internalID: -8012578649775367253
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_sprites-removebg-preview_38
-      rect:
-        serializedVersion: 2
-        x: 229
-        y: 128
-        width: 14
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee02c21b7b687da20800000000000000
-      internalID: 3087084193095360750
       vertices: []
       indices: 
       edges: []
