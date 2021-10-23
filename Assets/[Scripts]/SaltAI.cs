@@ -63,11 +63,11 @@ public class SaltAI : MonoBehaviour
 
         if (rb.velocity.x > 0.01f)
         {
-            GhostGFX.localScale = new Vector3(-5f, 5f, 1f);
+            GhostGFX.localScale = new Vector3(-1f, 1f, 1f);
         }
         else if (rb.velocity.x < -0.01f)
         {
-            GhostGFX.localScale = new Vector3(5f, 5f, 1f);
+            GhostGFX.localScale = new Vector3(1f, 1f, 1f);
         }
     }
     void OnPathComplete(Path P)
