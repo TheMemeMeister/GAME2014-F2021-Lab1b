@@ -205,7 +205,7 @@ MonoBehaviour:
   checkRadius: 0.25
   WhatIsGround:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   DoubleJumpVal: 0
   FrostArrow: {fileID: 0}
   attackSpeed: 0.5
