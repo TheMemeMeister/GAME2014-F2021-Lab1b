@@ -8,12 +8,12 @@ public class GameManager : MonoBehaviour
     //variables
     public Rect screen;
     public Rect safeArea;
-    public Rect backButtonRect;
-    public Button backButton;
+    //public Rect backButtonRect;
+   // public Button backButton;
     void Start()
     {
         //screen = Screen.safeArea;
-        Debug.Log(backButton.transform.localPosition);
+        //Debug.Log(backButton.transform.localPosition);
     }
 
     // Update is called once per frame

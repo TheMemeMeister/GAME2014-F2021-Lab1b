@@ -462,7 +462,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6708762766251967140, guid: ee9a2ce8c470dab41b39a03fe4b31bd9, type: 3}
       propertyPath: m_Text
-      value: Back
+      value: Exit
       objectReference: {fileID: 0}
     - target: {fileID: 8092611881690855567, guid: ee9a2ce8c470dab41b39a03fe4b31bd9, type: 3}
       propertyPath: m_AnchoredPosition.x
