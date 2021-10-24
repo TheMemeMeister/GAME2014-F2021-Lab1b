@@ -69,6 +69,7 @@ public class SaltAI : MonoBehaviour
         {
             GhostGFX.localScale = new Vector3(1f, 1f, 1f);
         }
+        
     }
     void OnPathComplete(Path P)
     {
@@ -78,7 +79,7 @@ public class SaltAI : MonoBehaviour
             CurrentWaypoint = 0;
         }
     }
-    public void OnTriggerEnter2D(Collider2D other)
+    public void OnCollisionEnter2D(Collider2D other)
     {
         Debug.Log("Collided with:" + other.gameObject.name);
         DistroySalt();

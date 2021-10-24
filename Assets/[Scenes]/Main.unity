@@ -228,7 +228,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2304747188002352587, guid: 5235764441e032b408d195ddebad0833, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 2304747188002352587, guid: 5235764441e032b408d195ddebad0833, type: 3}
       propertyPath: m_LocalPosition.x
@@ -534,7 +534,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 488900921503458334, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 488900921503458334, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -583,6 +583,10 @@ PrefabInstance:
     - target: {fileID: 5254023191994679472, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5254023191994679472, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 6329860535389946762, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: target
@@ -752,7 +756,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 488900921503458334, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 488900921503458334, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -801,6 +805,10 @@ PrefabInstance:
     - target: {fileID: 5254023191994679472, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5254023191994679472, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 6329860535389946762, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: target
@@ -958,6 +966,10 @@ PrefabInstance:
     - target: {fileID: 5254023191994679472, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: m_Name
       value: Salt Enemies (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5254023191994679472, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 6329860535389946762, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: target
@@ -1436,7 +1448,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 488900921503458334, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 488900921503458334, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1485,6 +1497,10 @@ PrefabInstance:
     - target: {fileID: 5254023191994679472, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5254023191994679472, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 6329860535389946762, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: target
@@ -1639,7 +1655,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 488900921503458334, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 488900921503458334, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1688,6 +1704,10 @@ PrefabInstance:
     - target: {fileID: 5254023191994679472, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5254023191994679472, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 6329860535389946762, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: target
@@ -1878,7 +1898,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 488900921503458334, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 488900921503458334, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1927,6 +1947,10 @@ PrefabInstance:
     - target: {fileID: 5254023191994679472, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5254023191994679472, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 6329860535389946762, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: target
@@ -1999,7 +2023,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5254023191994679472, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5254023191994679472, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 6329860535389946762, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: target
@@ -2066,6 +2094,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Salt Enemies (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5254023191994679472, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 6329860535389946762, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: target
       value: 
@@ -2085,7 +2117,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 488900921503458334, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 488900921503458334, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2135,6 +2167,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5254023191994679472, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 6329860535389946762, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: target
       value: 
@@ -2148,9 +2184,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3511986485147994885, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6144338871479483060, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
       propertyPath: m_Name
       value: Slime
+      objectReference: {fileID: 0}
+    - target: {fileID: 6144338871479483060, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7088263702062475900, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
       propertyPath: m_Constraints
@@ -2431,6 +2475,10 @@ PrefabInstance:
     - target: {fileID: 5254023191994679472, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: m_Name
       value: Salt Enemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 5254023191994679472, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 6329860535389946762, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: target

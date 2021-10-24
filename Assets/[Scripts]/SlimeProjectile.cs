@@ -48,10 +48,15 @@ public class SlimeProjectile : MonoBehaviour
         }
     }
 
-    public void OnTriggerEnter2D(Collider2D other)
+    public void OnCollisionEnter2D(Collider2D other)
     {
+       if (other.gameObject.CompareTag("Enemy"))
+        {
+        pInfo.score++;
         Debug.Log("Collided with:" + other.gameObject.name);
         DistroyProjectile();
+
+        }
     }
 
     void DistroyProjectile()
