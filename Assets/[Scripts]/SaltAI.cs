@@ -18,13 +18,14 @@ public class SaltAI : MonoBehaviour
     Seeker seeker;
     Rigidbody2D rb;
 
+    private AudioSource SaltGrind;
 
     void Start()
     {
         seeker = GetComponent<Seeker>();
         rb = GetComponent<Rigidbody2D>();
         InvokeRepeating("UpdatePath", 0.0f, 0.5f);
-
+        SaltGrind = GetComponent<AudioSource>();
     }
 
     void UpdatePath()
@@ -83,7 +84,8 @@ public class SaltAI : MonoBehaviour
     {
        
             Debug.Log("Collided with:" + other.gameObject.name);
-            DistroySalt();
+        SaltGrind.PlayOneShot(SaltGrind.clip);
+        DistroySalt();
         
        
     }

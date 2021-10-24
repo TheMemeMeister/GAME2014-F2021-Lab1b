@@ -20,13 +20,16 @@ public class SlimeProjectile : MonoBehaviour
 
     [SerializeField]
     private float Activetime;
+
+    private AudioSource SlimeShoot;
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
         //target = new Vector2(player.position.x, player.position.y);
         rb = GetComponent<Rigidbody2D>();
-
+        SlimeShoot = GetComponent<AudioSource>();
+        SlimeShoot.PlayOneShot(SlimeShoot.clip);
     }
 
     void FixedUpdate()
