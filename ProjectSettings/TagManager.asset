@@ -9,6 +9,7 @@ TagManager:
   - JoyStick
   - JoyButton
   - Attack Button
+  - Enemy
   layers:
   - Default
   - TransparentFX

@@ -11,6 +11,7 @@ public static class pInfo // Player Info, accessible anywhere. Makes things a lo
 public class PlayerBehaviour : MonoBehaviour
 {
     [SerializeField] public TextMeshProUGUI livesText;
+    [SerializeField] public TextMeshProUGUI scoreText;
     public float moveSpeed = 5f;
     public float JumpForce;
     public float MoveInput;
@@ -122,7 +123,14 @@ public class PlayerBehaviour : MonoBehaviour
         coolDown = Time.time + attackSpeed;
 
     }
-
+    public void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            pInfo.Lives--;
+            Debug.Log("Life Lost");
+        }
+    }
 
     //public void PlayerAttackUP()
     //{

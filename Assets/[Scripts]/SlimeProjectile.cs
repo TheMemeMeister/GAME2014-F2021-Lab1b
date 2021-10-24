@@ -48,7 +48,7 @@ public class SlimeProjectile : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("Collided with:" + other.gameObject.name);
         DistroyProjectile();
