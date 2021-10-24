@@ -23,13 +23,13 @@ public class GameManager : MonoBehaviour
         //Debug.Log(backButton.transform.localPosition);
         audioSource = GetComponent<AudioSource>();
         Instance = this;
-        paused1 = false;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-     
+        paused1 = false;
         UpdateSound();
         Cursor.visible = true;
         scene = SceneManager.GetActiveScene();
@@ -95,14 +95,16 @@ public class GameManager : MonoBehaviour
     }
     private void UpdateSound()
     {
-        if (audioSource == null)
-        {
-            audioSource = GetComponent<AudioSource>();
-        }
+        //if (audioSource == null)
+        //{
+        //    audioSource = GetComponent<AudioSource>();
+        //}
         if (!paused1) // play song 1
         {
             audioSource.clip = MainSoundTrack;
             audioSource.Play(0);
+            Debug.Log("Play 0 called");
+
             audioSource.volume = 0.7f;
             //paused2 = true;
         }

@@ -82,11 +82,12 @@ public class SaltAI : MonoBehaviour
     }
     public void OnCollisionEnter2D(Collision2D other)
     {
-       
+        if (!other.gameObject.CompareTag("Enemy"))
+        {
             Debug.Log("Collided with:" + other.gameObject.name);
-        SaltGrind.PlayOneShot(SaltGrind.clip);
-        DistroySalt();
-        
+            SaltGrind.PlayOneShot(SaltGrind.clip);
+            DistroySalt();
+        }
        
     }
     void DistroySalt()
