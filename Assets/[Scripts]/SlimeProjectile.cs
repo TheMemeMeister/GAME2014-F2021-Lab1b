@@ -9,7 +9,7 @@ public class SlimeProjectile : MonoBehaviour
     public float speed = 5f;
     public float rotateSpeed = 2f;
     private Transform player;
-    private Vector2 target;
+    //private Vector2 target;
 
     //homing portions
     private Rigidbody2D rb;
@@ -24,7 +24,7 @@ public class SlimeProjectile : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
-        target = new Vector2(player.position.x, player.position.y);
+        //target = new Vector2(player.position.x, player.position.y);
         rb = GetComponent<Rigidbody2D>();
 
     }
@@ -40,21 +40,23 @@ public class SlimeProjectile : MonoBehaviour
         rb.velocity = transform.up * speed;
 
         Activetime += Time.deltaTime;
-
-        if (Activetime > Maxlifetime || transform.position.x == ArrowTarg.position.x && transform.position.y == ArrowTarg.position.y)
+        // transform.position.x == ArrowTarg.position.x && transform.position.y == ArrowTarg.position.y
+        if (Activetime > Maxlifetime)
         {
             Debug.Log("Destroyed Arrow");
             DistroyProjectile();
         }
     }
 
-    public void OnCollisionEnter2D(Collider2D other)
+    public void OnCollisionEnter2D(Collision2D other)
     {
        if (other.gameObject.CompareTag("Enemy"))
         {
-        pInfo.score++;
-        Debug.Log("Collided with:" + other.gameObject.name);
-        DistroyProjectile();
+           
+            Debug.Log("Collided with:" + other.gameObject.name);
+            player.GetComponent<PlayerBehaviour>().Score++;
+            player.GetComponent<PlayerBehaviour>().scoreText.text = "Score: " + player.GetComponent<PlayerBehaviour>().Score.ToString();
+            DistroyProjectile();
 
         }
     }

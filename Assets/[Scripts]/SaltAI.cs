@@ -79,10 +79,13 @@ public class SaltAI : MonoBehaviour
             CurrentWaypoint = 0;
         }
     }
-    public void OnCollisionEnter2D(Collider2D other)
+    public void OnCollisionEnter2D(Collision2D other)
     {
-        Debug.Log("Collided with:" + other.gameObject.name);
-        DistroySalt();
+       
+            Debug.Log("Collided with:" + other.gameObject.name);
+            DistroySalt();
+        
+       
     }
     void DistroySalt()
     {

@@ -3,15 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-public static class pInfo // Player Info, accessible anywhere. Makes things a lot easier without the need of instancing.
-{
-    [SerializeField] public static int score = 0;
-    [SerializeField] public static int Lives = 3;
-}
+//[System.Serializable]
+//public static class pInfo // Player Info, accessible anywhere. Makes things a lot easier without the need of instancing.
+
+//{
+//    [SerializeField] public static int score = 0;
+//    [SerializeField] public static int Lives = 3;
+//}
 public class PlayerBehaviour : MonoBehaviour
 {
     [SerializeField] public TextMeshProUGUI livesText;
     [SerializeField] public TextMeshProUGUI scoreText;
+    public int Lives;
+    public int Score;
     public float moveSpeed = 5f;
     public float JumpForce;
     public float MoveInput;
@@ -49,8 +53,11 @@ public class PlayerBehaviour : MonoBehaviour
         joystick = GameObject.FindWithTag("JoyStick").GetComponent<FixedJoystick>();
         //AttackStick = GameObject.FindWithTag("JoyButton").GetComponent<FixedJoystick>();
         GameObject.Find("Attack Button").GetComponent<Button>().onClick.AddListener(PlayerAttack);
-        //Activetime = 0.0f;
-    }
+        Lives = 10;
+        Score = 0;
+
+    //Activetime = 0.0f;
+}
 
     // Update is called once per frame
     void FixedUpdate()
@@ -127,7 +134,8 @@ public class PlayerBehaviour : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Enemy"))
         {
-            pInfo.Lives--;
+            Lives--;
+            livesText.text = "Lives" + Lives;
             Debug.Log("Life Lost");
         }
     }
