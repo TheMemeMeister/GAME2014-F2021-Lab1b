@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     //variables
-    public static GameManager Instance;
+    //public static GameManager Instance;
     //public Rect screen;
     //public Rect safeArea;
     
@@ -22,7 +22,7 @@ public class GameManager : MonoBehaviour
         //screen = Screen.safeArea;
         //Debug.Log(backButton.transform.localPosition);
         audioSource = GetComponent<AudioSource>();
-        Instance = this;
+        //Instance = this;
         
     }
 
