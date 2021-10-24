@@ -10,9 +10,9 @@ public class SaltFactory : MonoBehaviour
     public GameObject BigSalt;
     public GameObject NoseSalt; //speedy gonzalas
 
-    public GameObject createSalt(saltType type = saltType.normalSalt)
+    public GameObject createSalt(saltType type = saltType.RANDOM)
     {
-        if (type == saltType.normalSalt)
+        if (type == saltType.RANDOM)
         {
             var randomSalt = Random.Range(0, 3);
             type = (saltType)randomSalt;

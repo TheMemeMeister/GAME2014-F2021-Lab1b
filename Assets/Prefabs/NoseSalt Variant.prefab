@@ -65,7 +65,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5254023191994679472, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: m_Name
-      value: NoseSalt
+      value: NoseSalt Variant
       objectReference: {fileID: 0}
     - target: {fileID: 6329860535389946762, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: speed
@@ -74,7 +74,7 @@ PrefabInstance:
     - target: {fileID: 6329860535389946762, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8966472612980318945, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
     m_RemovedComponents:
     - {fileID: 2051489465, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
