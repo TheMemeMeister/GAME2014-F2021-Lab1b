@@ -44,6 +44,7 @@ public class PlayerBehaviour : MonoBehaviour
     public float projectileSpeed = 500;
     protected bool shooting = false;
 
+    private AudioSource SlimeDeath;
 
     void Awake()
     {
@@ -55,9 +56,10 @@ public class PlayerBehaviour : MonoBehaviour
         GameObject.Find("Attack Button").GetComponent<Button>().onClick.AddListener(PlayerAttack);
         Lives = 10;
         Score = 0;
+        SlimeDeath = GetComponent<AudioSource>();
 
-    //Activetime = 0.0f;
-}
+        //Activetime = 0.0f;
+    }
 
     // Update is called once per frame
     void FixedUpdate()
@@ -136,6 +138,7 @@ public class PlayerBehaviour : MonoBehaviour
         {
             Lives--;
             livesText.text = "Lives" + Lives;
+            SlimeDeath.PlayOneShot(SlimeDeath.clip);
             Debug.Log("Life Lost");
         }
     }

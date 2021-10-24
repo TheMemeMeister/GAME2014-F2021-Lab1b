@@ -29,7 +29,7 @@ public class SlimeProjectile : MonoBehaviour
         //target = new Vector2(player.position.x, player.position.y);
         rb = GetComponent<Rigidbody2D>();
         SlimeShoot = GetComponent<AudioSource>();
-        SlimeShoot.PlayOneShot(SlimeShoot.clip);
+        
     }
 
     void FixedUpdate()
@@ -59,6 +59,7 @@ public class SlimeProjectile : MonoBehaviour
             Debug.Log("Collided with:" + other.gameObject.name);
             player.GetComponent<PlayerBehaviour>().Score++;
             player.GetComponent<PlayerBehaviour>().scoreText.text = "Score: " + player.GetComponent<PlayerBehaviour>().Score.ToString();
+            SlimeShoot.PlayOneShot(SlimeShoot.clip);
             DistroyProjectile();
 
         }

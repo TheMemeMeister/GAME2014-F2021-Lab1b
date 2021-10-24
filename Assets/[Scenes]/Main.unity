@@ -2290,107 +2290,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1 &1266434481 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6144338871479483060, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
-  m_PrefabInstance: {fileID: 1328232863704606213}
-  m_PrefabAsset: {fileID: 0}
---- !u!82 &1266434482
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1266434481}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &1296535869
 GameObject:
   m_ObjectHideFlags: 0
@@ -3814,29 +3713,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3511986485147994885, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6144338871479483060, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
       propertyPath: m_Name
       value: Slime
-      objectReference: {fileID: 0}
-    - target: {fileID: 6144338871479483060, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 7088263702062475900, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8816422569357186528, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
-      propertyPath: coolDown
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8816422569357186528, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
-      propertyPath: JumpForce
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8816422569357186528, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
       propertyPath: livesText
@@ -3846,18 +3725,6 @@ PrefabInstance:
       propertyPath: scoreText
       value: 
       objectReference: {fileID: 1311725771}
-    - target: {fileID: 8816422569357186528, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
-      propertyPath: FrostArrow
-      value: 
-      objectReference: {fileID: 8704504885233284476, guid: 5235764441e032b408d195ddebad0833, type: 3}
-    - target: {fileID: 8816422569357186528, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
-      propertyPath: attackSpeed
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8816422569357186528, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
-      propertyPath: DoubleJumpVal
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 8966472612980318945, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
       propertyPath: m_RootOrder
       value: 5
