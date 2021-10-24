@@ -1598,6 +1598,14 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8816422569357186528, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
+      propertyPath: coolDown
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816422569357186528, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
+      propertyPath: JumpForce
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816422569357186528, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
       propertyPath: livesText
       value: 
       objectReference: {fileID: 1311725771}
@@ -1605,6 +1613,14 @@ PrefabInstance:
       propertyPath: FrostArrow
       value: 
       objectReference: {fileID: 8704504885233284476, guid: 5235764441e032b408d195ddebad0833, type: 3}
+    - target: {fileID: 8816422569357186528, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
+      propertyPath: attackSpeed
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816422569357186528, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
+      propertyPath: DoubleJumpVal
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 8966472612980318945, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
       propertyPath: m_RootOrder
       value: 5
