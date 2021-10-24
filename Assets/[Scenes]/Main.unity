@@ -316,11 +316,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 488900921503458334, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
   m_PrefabInstance: {fileID: 6329860535389946759}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &255570857 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 328132442534826714, guid: d17ab7dc9b3271c4c93b250c62db41e7, type: 3}
-  m_PrefabInstance: {fileID: 5505590028525792481}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &295129615
 GameObject:
   m_ObjectHideFlags: 0
@@ -2392,7 +2387,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6144338871479483060, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7088263702062475900, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
       propertyPath: m_Constraints
@@ -2842,7 +2837,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6144338871479483060, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7088263702062475900, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
       propertyPath: m_Constraints
@@ -2972,16 +2967,6 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 2051489465, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
---- !u!1 &1720444752 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 728153865361691124, guid: 434c67717f3f7904990f27ced0ef17c0, type: 3}
-  m_PrefabInstance: {fileID: 4823608451832276673}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1876829562 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5254023191994679472, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
-  m_PrefabInstance: {fileID: 6329860535389946759}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1923719937
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3078,9 +3063,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98e2e91d192a69a4887505947e18b2bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normalSalt: {fileID: 1876829562}
-  BigSalt: {fileID: 1720444752}
-  NoseSalt: {fileID: 255570857}
+  normalSalt: {fileID: 5254023191994679472, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
+  BigSalt: {fileID: 728153865361691124, guid: 434c67717f3f7904990f27ced0ef17c0, type: 3}
+  NoseSalt: {fileID: 328132442534826714, guid: d17ab7dc9b3271c4c93b250c62db41e7, type: 3}
 --- !u!4 &1957018362
 Transform:
   m_ObjectHideFlags: 0
@@ -3212,7 +3197,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6144338871479483060, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7088263702062475900, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
       propertyPath: m_Constraints
