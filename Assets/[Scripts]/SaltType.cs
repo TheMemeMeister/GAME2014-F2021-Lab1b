@@ -7,5 +7,7 @@ public enum saltType
 {
     normalSalt,
     BigSalt,
-    NoseSalt
+    NoseSalt,
+    RANDOM
+
 }
