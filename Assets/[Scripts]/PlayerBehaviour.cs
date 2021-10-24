@@ -137,7 +137,7 @@ public class PlayerBehaviour : MonoBehaviour
         if (other.gameObject.CompareTag("Enemy"))
         {
             Lives--;
-            livesText.text = "Lives" + Lives;
+            livesText.text = "Lives: " + Lives;
             SlimeDeath.PlayOneShot(SlimeDeath.clip);
             Debug.Log("Life Lost");
         }
