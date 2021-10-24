@@ -2,9 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
+public static class pInfo // Player Info, accessible anywhere. Makes things a lot easier without the need of instancing.
+{
+    [SerializeField] public static int score = 0;
+    [SerializeField] public static int Lives = 3;
+}
 public class PlayerBehaviour : MonoBehaviour
 {
-
+    [SerializeField] public TextMeshProUGUI livesText;
     public float moveSpeed = 5f;
     public float JumpForce;
     public float MoveInput;
