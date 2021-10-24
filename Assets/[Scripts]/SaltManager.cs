@@ -37,7 +37,7 @@ public class SaltManager : MonoBehaviour
         return newSalt;
     }
 
-    public bool HasBullets()
+    public bool HasSalt()
     {
         return m_saltpool.Count > 0;
     }
