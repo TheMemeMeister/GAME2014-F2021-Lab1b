@@ -119,7 +119,7 @@ GameObject:
   - component: {fileID: 6329860535389946766}
   - component: {fileID: 7881125465413264619}
   m_Layer: 8
-  m_Name: Salt Enemies
+  m_Name: normalSalt
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
