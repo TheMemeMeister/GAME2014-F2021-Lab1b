@@ -24,22 +24,22 @@ public class SaltFactory : MonoBehaviour
             case saltType.normalSalt:
                 tempSalt = Instantiate(normalSalt);
                 tempSalt.GetComponent<SaltController>().damage = 1;
-                tempSalt.SetActive(true);//unity wtf??
+                //tempSalt.SetActive(true);
                 break;
             case saltType.BigSalt:
                 tempSalt = Instantiate(BigSalt);
                 tempSalt.GetComponent<SaltController>().damage = 2;
-                tempSalt.SetActive(true);
+                //tempSalt.SetActive(true);
                 break;
             case saltType.NoseSalt:
                 tempSalt = Instantiate(NoseSalt);
                 tempSalt.GetComponent<SaltController>().damage = 4;
-                tempSalt.SetActive(true);
+                //tempSalt.SetActive(true);
                 break;
         }
 
         tempSalt.transform.parent = transform;
-        tempSalt.SetActive(false);
+        tempSalt.SetActive(true);
 
         return tempSalt;
     }
