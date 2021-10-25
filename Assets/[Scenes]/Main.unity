@@ -3339,6 +3339,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2568971508485616391, guid: 5f39da0bc2acc4c42860dced92dc5db2, type: 3}
+      propertyPath: saltManager
+      value: 
+      objectReference: {fileID: 1957018363}
     - target: {fileID: 7826836167475248866, guid: 5f39da0bc2acc4c42860dced92dc5db2, type: 3}
       propertyPath: m_Name
       value: BigSalt
@@ -3469,6 +3473,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5451524372605253394, guid: 41981f77acadf224bb7c22795c359523, type: 3}
+      propertyPath: saltManager
+      value: 
+      objectReference: {fileID: 1957018363}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41981f77acadf224bb7c22795c359523, type: 3}
 --- !u!1001 &6329860535389946759
@@ -3522,6 +3530,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 563611579919699285, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
+      propertyPath: saltManager
+      value: 
+      objectReference: {fileID: 1957018363}
     - target: {fileID: 5254023191994679472, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: m_Name
       value: Salt Enemies
