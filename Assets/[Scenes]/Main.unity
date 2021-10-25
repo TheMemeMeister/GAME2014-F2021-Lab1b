@@ -3340,9 +3340,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2568971508485616391, guid: 5f39da0bc2acc4c42860dced92dc5db2, type: 3}
+      propertyPath: damage
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2568971508485616391, guid: 5f39da0bc2acc4c42860dced92dc5db2, type: 3}
       propertyPath: saltManager
       value: 
       objectReference: {fileID: 1957018363}
+    - target: {fileID: 2568971508485616391, guid: 5f39da0bc2acc4c42860dced92dc5db2, type: 3}
+      propertyPath: horizontalSpeed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7826836167475248866, guid: 5f39da0bc2acc4c42860dced92dc5db2, type: 3}
       propertyPath: m_Name
       value: BigSalt
@@ -3474,9 +3482,21 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5451524372605253394, guid: 41981f77acadf224bb7c22795c359523, type: 3}
+      propertyPath: damage
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451524372605253394, guid: 41981f77acadf224bb7c22795c359523, type: 3}
       propertyPath: saltManager
       value: 
       objectReference: {fileID: 1957018363}
+    - target: {fileID: 5451524372605253394, guid: 41981f77acadf224bb7c22795c359523, type: 3}
+      propertyPath: horizontalSpeed
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5451524372605253394, guid: 41981f77acadf224bb7c22795c359523, type: 3}
+      propertyPath: horizontalBoundary
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41981f77acadf224bb7c22795c359523, type: 3}
 --- !u!1001 &6329860535389946759
