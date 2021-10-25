@@ -42,9 +42,9 @@ public class SaltManager : MonoBehaviour
         return m_saltpool.Count > 0;
     }
 
-    public void ReturnSalt(GameObject returnedBullet)
+    public void ReturnSalt(GameObject returnedSalt)
     {
-        returnedBullet.SetActive(false);
-        m_saltpool.Enqueue(returnedBullet);
+        returnedSalt.SetActive(false);
+        m_saltpool.Enqueue(returnedSalt);
     }
 }
