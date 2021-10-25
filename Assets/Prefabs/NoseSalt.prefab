@@ -80,6 +80,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7881125465413264619, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881125465413264619, guid: 46cd5238750abe74495a416f7fb4b2e9, type: 3}
       propertyPath: MinDistance
       value: 0.29565382
       objectReference: {fileID: 0}
