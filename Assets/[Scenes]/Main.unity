@@ -2321,7 +2321,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6144338871479483060, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7088263702062475900, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
       propertyPath: m_Constraints
@@ -2705,7 +2705,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6144338871479483060, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7088263702062475900, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
       propertyPath: m_Constraints
@@ -3069,7 +3069,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6144338871479483060, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7088263702062475900, guid: 6aa46670b273fd348b8e12410e3a1c85, type: 3}
       propertyPath: m_Constraints
@@ -3359,10 +3359,6 @@ PrefabInstance:
     - target: {fileID: 728153865361691124, guid: 434c67717f3f7904990f27ced0ef17c0, type: 3}
       propertyPath: m_Name
       value: BigSalt
-      objectReference: {fileID: 0}
-    - target: {fileID: 728153865361691124, guid: 434c67717f3f7904990f27ced0ef17c0, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1524689243901350606, guid: 434c67717f3f7904990f27ced0ef17c0, type: 3}
       propertyPath: target
