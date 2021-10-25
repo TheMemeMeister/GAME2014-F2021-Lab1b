@@ -23,15 +23,15 @@ public class SaltFactory : MonoBehaviour
         {
             case saltType.normalSalt:
                 tempSalt = Instantiate(normalSalt);
-                tempSalt.GetComponent<SaltController>().damage = 10;
+                tempSalt.GetComponent<SaltController>().damage = 1;
                 break;
             case saltType.BigSalt:
                 tempSalt = Instantiate(BigSalt);
-                tempSalt.GetComponent<SaltController>().damage = 20;
+                tempSalt.GetComponent<SaltController>().damage = 2;
                 break;
             case saltType.NoseSalt:
                 tempSalt = Instantiate(NoseSalt);
-                tempSalt.GetComponent<SaltController>().damage = 30;
+                tempSalt.GetComponent<SaltController>().damage = 4;
                 break;
         }
 
