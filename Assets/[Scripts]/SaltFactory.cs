@@ -24,7 +24,7 @@ public class SaltFactory : MonoBehaviour
             case saltType.normalSalt:
                 tempSalt = Instantiate(normalSalt);
                 tempSalt.GetComponent<SaltController>().damage = 1;
-                tempSalt.SetActive(true);
+                tempSalt.SetActive(true);//unity wtf??
                 break;
             case saltType.BigSalt:
                 tempSalt = Instantiate(BigSalt);
